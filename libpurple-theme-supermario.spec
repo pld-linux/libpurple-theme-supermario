@@ -4,7 +4,7 @@ Name:		libpurple-theme-%{theme}
 Version:	1.0
 Release:	1
 License:	?
-Group:		Applications/Publishing
+Group:		Themes
 Source0:	http://www.deviantart.com/download/145302959/Pidgin_Sound___Super_Mario_by_kidnoize.zip
 # Source0-md5:	4d1bb4819711598a03c1731d664a60e5
 URL:		http://kidnoize.deviantart.com/art/Pidgin-Sound-Super-Mario-145302959
@@ -16,8 +16,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_appdir		%{_datadir}/themes/%{theme}
 
 %description
-I've developed Carbon theme for personal needs for Gallery 2. It is
-based on Matrix theme. The theme works well in Firefox and IE6.
+This is Soundtheme for Pidgin, based on the SNES game "Super Mario
+World". Its simple and reminds the good old days.
 
 %prep
 %setup -q -n Super\ Mario\ World
